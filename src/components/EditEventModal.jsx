@@ -58,8 +58,8 @@ const EditEventModal = ({ event = null, onClose }) => {
       });
 
       const endpoint = isEditing 
-        ? `http://localhost:3000/api/v1/events/${event._id}`
-        : `http://localhost:3000/api/v1/events/`;
+        ? `${imort.meta.env.VITE_BACKEND_URL}/api/v1/events/${event._id}`
+        : `${import.meta.env.VITE_BACKEND_URL}/api/v1/events/`;
 
       await axios.post(endpoint, data, {
         headers: { Authorization: `Bearer ${token}` }
