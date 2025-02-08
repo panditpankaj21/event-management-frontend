@@ -69,13 +69,14 @@ const EventCard = ({ event, onDelete, setEditingEvent}) => {
           <div className="flex items-center gap-2 text-sm text-gray-500">
             <FaCalendarAlt className="flex-shrink-0" />
             <span>
-              {new Date(event.date).toLocaleDateString('en-US', {
+              {new Date(event.date).toLocaleDateString('en-IN', {
                 weekday: 'short',
                 year: 'numeric',
                 month: 'short',
                 day: 'numeric',
                 hour: '2-digit',
-                minute: '2-digit'
+                minute: '2-digit',
+                timeZone: "Asia/Kolkata"
               })}
             </span>
           </div>
