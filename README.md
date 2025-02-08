@@ -1,6 +1,7 @@
 # Event Management Web Application
 
-![Event Manager Preview](https://i.imgur.com/zXy3D0Q.png)
+![Screenshot 2025-02-08 131955](https://github.com/user-attachments/assets/22e93e09-febd-45c5-8302-6b5a50cb0736)
+
 
 A full-stack web application for managing and discovering events with real-time updates and user authentication.
 
